@@ -1,1 +1,1 @@
-Sever Site of Synergistic-Education-Collaborative
+Sever Site of Synergistic-Education-Collaborative - Online
