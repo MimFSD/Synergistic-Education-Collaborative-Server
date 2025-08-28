@@ -124,21 +124,21 @@ async function run() {
       res.send(result);
     })
 
-    app.get('/myassignment', logger, tokenVerify, async (req, res) => {
-      if (req.user.email !== req.query.email) {
-        return res.status(403).send({ message: 'forbidden access' })
-      }
-      const cursor = SubmitAssignment.find();
-      const result = await cursor.toArray();
-      res.send(result);
-    })
-    app.get('/myassignment/:email', async (req, res) => {
-      const email = req.body.email;
-      const query = { email: (email) };
-      const cursor = SubmitAssignment.find(query);
-      const result = await cursor.toArray();
-      res.send(result);
-    })
+    // app.get('/myassignment', logger, tokenVerify, async (req, res) => {
+    //   if (req.user.email !== req.query.email) {
+    //     return res.status(403).send({ message: 'forbidden access' })
+    //   }
+    //   const cursor = SubmitAssignment.find();
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // })
+    // app.get('/myassignment/:email', async (req, res) => {
+    //   const email = req.body.email;
+    //   const query = { email: (email) };
+    //   const cursor = SubmitAssignment.find(query);
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // })
 
 
     app.post('/assignment', async (req, res) => {
