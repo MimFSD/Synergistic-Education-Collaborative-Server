@@ -76,5 +76,4 @@ Once running, open browser/Postman:
 
 ---
 
-👉 Would you like me to also **write a ready `README.md` file for backend setup** so you can directly drop it into your project?
 
