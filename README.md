@@ -35,11 +35,7 @@ npm install
 
 Inside the root folder, add:
 
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/educationDB
-JWT_SECRET=yourSecretKey
-```
+
 
 *(adjust values depending on your project setup)*
 
