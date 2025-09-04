@@ -1,6 +1,3 @@
-Here’s a **concise and polished version** of your server setup guide:
-
----
 
 # 📡 Synergistic-Education-Collaborative (Server)
 
@@ -67,6 +64,4 @@ mongod
 * `http://localhost:5000/` → API status / welcome message
 * `http://localhost:5000/api/...` → check routes
 
----
 
-Do you want me to also **add a sample `.env` template** (with placeholders like `PORT=5000`, `MONGO_URI=...`, `JWT_SECRET=...`) so new users can set it up faster?
