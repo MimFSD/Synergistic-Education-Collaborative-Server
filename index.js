@@ -185,13 +185,13 @@ async function run() {
       res.send(result);
     })
 
-    app.delete('/deleteassignment/:id', async (req, res) => {
-      const id = req.params.id;
-      // console.log('delte',id);
-      const query = { _id: new ObjectId(id) };
-      const result = await CreateAssignment.deleteOne(query);
-      res.send(result);
-    })
+    // app.delete('/deleteassignment/:id', async (req, res) => {
+    //   const id = req.params.id;
+    //   // console.log('delte',id);
+    //   const query = { _id: new ObjectId(id) };
+    //   const result = await CreateAssignment.deleteOne(query);
+    //   res.send(result);
+    // })
 
     app.post('/create-payment', async (req, res) => {
       const { price } = req.body;
